@@ -15,22 +15,22 @@ COUNT WHERE TITLE IS TV SHOW = 45
  WHERE type = 'TV Show'
  LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
 
- COUNT WHERE RATING IS TV-MA = 55
+ COUNT WHERE RATING IS TV-MA = 32
 3	6	17:27:54	SELECT COUNT(rating) From test1.netflix_titles
  WHERE rating = 'TV-MA'
  LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
 
- COUNT WHERE RATING IS PG = 
+ COUNT WHERE RATING IS PG = 6
 3	7	17:28:11	SELECT COUNT(rating) From test1.netflix_titles
- WHERE rating = 'PG'
+ WHERE rating = 'PG' 
  LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
 
- COUNT WHERE RATING IS TV-13 = 
+ COUNT WHERE RATING IS TV-13 = 0
 3	8	17:28:27	SELECT COUNT(rating) From test1.netflix_titles
  WHERE rating = 'TV-13'
  LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
 
- COUNT WHERE RATING IS TV-14 = 
+ COUNT WHERE RATING IS TV-14 = 17
 3	9	17:28:32	SELECT COUNT(rating) From test1.netflix_titles
  WHERE rating = 'TV-14'
  LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
