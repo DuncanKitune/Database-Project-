@@ -9,6 +9,8 @@ SELECT * FROM test1.netflix_titles;
 -- SELECT DISTINCT director
 -- FROM netflix_titles
 -- ORDER BY director ASC;
+
+
 -- SELECT 
 -- title,
 -- cast,
@@ -16,6 +18,8 @@ SELECT * FROM test1.netflix_titles;
 -- FROM netflix_titles
 -- WHERE release_year >=2020
 -- ORDER BY release_year ASC;
+
+
 -- SELECT
 -- title,
 -- director,
@@ -26,9 +30,11 @@ SELECT * FROM test1.netflix_titles;
 -- title,
 -- director,
 -- duration;
- -- = Movie
+ -- genre = Movie
 -- AND 
 -- duration <= 60min;
+
+
 -- SELECT
 -- title,
 -- director,
@@ -39,6 +45,7 @@ SELECT * FROM test1.netflix_titles;
 -- FROM 
 -- netflix_titles
 -- GROUP BY title;
+
 SELECT
 title,
 director,
